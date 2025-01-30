@@ -1,0 +1,7 @@
+name = "lamuta"
+version = "0.4.3"
+description = "ラムダ計算の数式がそのまま書ける関数型プログラミング言語"
+license = "MIT"
+authors = ["梶塚太智"]
+dependencies = []
+repository = "https://github.com/KajizukaTaichi/lamuta"
