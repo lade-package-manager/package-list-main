@@ -24,7 +24,7 @@ name = "$pkgname"
 version = "$version"
 description = "$desc"
 license = "$license"
-authors = ["$authors"]
+authors = [$(echo "$authors" | sed 's/, */", "/g' | sed 's/^/"/' | sed 's/$/"/')]
 dependencies = [$(echo "$depends" | sed 's/, */", "/g' | sed 's/^/"/' | sed 's/$/"/')]
 repository = "$repo"
 EOF
