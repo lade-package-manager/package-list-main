@@ -1,0 +1,7 @@
+name = "rumya"
+version = "0.1.0"
+description = "難しいこと考えなくても すらすらコードが書ける プログラミング言語"
+license = "MIT"
+authors = ["梶塚太智"]
+dependencies = ["lamuta"]
+repository = "https://github.com/KajizukaTaichi/Rumya"
