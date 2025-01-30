@@ -1,4 +1,4 @@
-name = hello_lade
+name = "hello_lade"
 version = "1.0.0"
 description = "Test package for lade"
 license = "MIT"
