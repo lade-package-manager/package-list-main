@@ -30,6 +30,8 @@ repository = "$repo"
 EOF
 
 if [ "$download" = "y" ]; then
-    echo "download = true" >> "$pkgname/info.toml"
+    echo -n "url? "
+    read url
+    echo "download = \"$url\"" >> "$pkgname/info.toml"
 fi
 
