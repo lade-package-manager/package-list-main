@@ -1,0 +1,7 @@
+name: hello_lade
+version: "1.0.0"
+description: "Test package for lade"
+license: "MIT"
+authors: "Pik6C"
+repository: "https://lade-package-manager/hello_lade"
+download: true
