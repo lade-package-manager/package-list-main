@@ -5,4 +5,3 @@ license = "MIT"
 authors = ["Pik6C"]
 dependencies = ["hello_knife"]
 repository = "https://github.com/lade-package-manager/lade"
-download = ""
