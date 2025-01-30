@@ -4,4 +4,4 @@ description = "test package for lade"
 license = "MIT"
 authors = ["Pik6C"]
 dependencies = ["hello_knife"]
-repository = "https://github.com/lade-package-manager/lade"
+repository = "https://github.com/lade-package-manager/hello_lade"
