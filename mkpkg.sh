@@ -2,13 +2,13 @@
 
 echo -n "package name? "
 read pkgname
-echo -n "version? "
+echo -n "version? (comma-separated) "
 read version
 echo -n "description? "
 read desc
 echo -n "license? "
 read license
-echo -n "authors? "
+echo -n "authors? (comma-separated) "
 read authors
 echo -n "dependencies? (comma-separated) "
 read depends
@@ -21,7 +21,7 @@ mkdir -p "$pkgname"
 
 cat <<EOF > "$pkgname/info.toml"
 name = "$pkgname"
-version = "$version"
+version = [$(echo "$version" | sed 's/, */", "/g' | sed 's/^/"/' | sed 's/$/"/')]
 description = "$desc"
 license = "$license"
 authors = [$(echo "$authors" | sed 's/, */", "/g' | sed 's/^/"/' | sed 's/$/"/')]

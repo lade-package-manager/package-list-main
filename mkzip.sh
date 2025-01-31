@@ -1,9 +1,13 @@
 #!/bin/bash
 
 version="1"
-output_dir="out"
-mkdir -p "$output_dir"  # out ディレクトリを作成（存在してもOK）
+output_dir="./out"
 
+if [ -e $output_dir ]; then
+	rm -rf "$output_dir"
+fi
+
+mkdir -p "$output_dir"  # out ディレクトリを作成（存在してもOK）
 current_time=$(date "+%Y-%m-%d-%H:%M:%S")
 
 zip_name="$output_dir/main.zip"
