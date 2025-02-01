@@ -1,0 +1,9 @@
+name = "mk"
+version = "1.2"
+older_version = [""]
+description = "depen"
+license = "dep"
+authors = ["pikcs"]
+dependencies = ["gc", "rust"]
+repository = "https"
+download = "mk"
