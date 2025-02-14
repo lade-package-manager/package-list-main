@@ -1,0 +1,8 @@
+name = "mltalk"
+version = "0.1.0"
+older_version = [""]
+description = "ML-family programming language that you can write code smoothly"
+license = "MIT"
+authors = ["KajizukaTaichi"]
+dependencies = [""]
+repository = "https://github.com/KajizukaTaichi/MLtalk"
