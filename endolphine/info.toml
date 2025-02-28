@@ -1,0 +1,7 @@
+name = "endolphine"
+version = "1.0.1"
+description = "TUI file explorer made by Rust"
+license = "MIT"
+authors = ["TundraClimate"]
+dependencies = [""]
+repository = "https://github.com/TundraClimate/endolphine"
