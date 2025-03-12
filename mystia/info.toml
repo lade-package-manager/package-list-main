@@ -1,1 +1,7 @@
-testing
+name = "mystia"
+version = "1.0"
+description = "The front-end programming language be compiled to WebAssembly"
+license = "MIT"
+authors = ["KajizukaTaichi"]
+dependencies = [""]
+repository = "https://github.com/KajizukaTaichi/mystia"
